@@ -36,3 +36,4 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/.xcodemap/config/xcodemap-class-filter.yaml
