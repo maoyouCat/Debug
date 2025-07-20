@@ -22,6 +22,7 @@ public class ThreadMultiple {
     }
 
     private static void addIfAbsent(List<Integer> list, int x) {
+        int i=1;
         synchronized (list) {
             if (!list.contains(x)) {
                 list.add(x);

@@ -1,11 +1,15 @@
 package com.maoyou.fun.base.utils;
 
+import java.beans.Encoder;
+import java.nio.charset.CharsetEncoder;
+import java.util.Arrays;
+
 public class SwordUtils {
     public static boolean filter(int read) {
         int i = 10;
         i = i * 2;
         i += 4;
-//        int i=10;
+         i=10;
 //        i = i * 2;
 //        i += 4;
 //        int i=10;
@@ -18,6 +22,7 @@ public class SwordUtils {
     }
 
     public static void process(int read) {  //alt+f8
+
         if (Math.max(read, 90) % 2 == 0) {
             System.out.println("!");
         }

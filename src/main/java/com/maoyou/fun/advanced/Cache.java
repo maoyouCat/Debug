@@ -10,7 +10,7 @@ public class Cache {
     }
 
     static Cache getInstance(int i) {
-        if (instance == null) { //暂停的debug 单击  黄色的debug shift+单击
+        if (instance == null) {
             instance = new Cache();
         }
         return instance;
