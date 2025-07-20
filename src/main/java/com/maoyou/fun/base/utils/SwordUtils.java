@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class SwordUtils {
     public static boolean filter(int read) {
-        int i = 10;
+        int i = 20;
         i = i * 2;
         i += 4;
          i=10;
